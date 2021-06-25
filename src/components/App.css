@@ -1,0 +1,40 @@
+.avatar-image {
+  height: 100px;
+  pointer-events: none;
+}
+.new-section {
+  margin-top: 10px;
+}
+.main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*====== Start Add icon in input =========*/
+.inner-addon {
+  position: relative;
+}
+
+/* style icon */
+.inner-addon i {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.right-addon i { right: 0px;}
+
+/* add padding  */
+.right-addon input { padding-right: 30px; }
+/*====== End Add icon in input =========*/
+
+.bd-example {
+  position: relative;
+  border: solid 1px #dee2e6;
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
