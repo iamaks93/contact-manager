@@ -1,6 +1,6 @@
 {
   "homepage" : "http://iamaks93.github.io/contact-manager",
-  "name": "netflix-clone",
+  "name": "contact-manager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
