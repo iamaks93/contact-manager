@@ -39,7 +39,7 @@ class AddContact extends React.Component {
             this.props.updateContactHandler(this.state);
         }
         this.setState({name: '', email: ''});
-        this.props.history.push('/');
+        this.props.history.push('/contact-manager');
     }
 
     render() {
@@ -52,7 +52,7 @@ class AddContact extends React.Component {
                         </div>
                         <div className="col-md-4 col-xs-12 ">
                             <Link
-                                to="/">
+                                to="/contact-manager">
                                 <button type="button" className="btn btn-primary float-end">Return Back</button>
                             </Link>
                         </div>

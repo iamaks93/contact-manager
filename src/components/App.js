@@ -82,7 +82,7 @@ function App() {
                 <Router>
                     <Switch>
                         <Route
-                            path="/"
+                            path={["/","/contact-manager"]}
                             exact
                             render={(props) => (
                                 <ContactsList
